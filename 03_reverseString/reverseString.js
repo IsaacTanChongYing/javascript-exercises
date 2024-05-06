@@ -18,6 +18,6 @@ const reverseString = function (word)
     // return joinArray; // "olleh"
 
 };
-reverseString('hello there')
+reverseString('hi there')
 // Do not edit below this line
 module.exports = reverseString;
