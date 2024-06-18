@@ -9,7 +9,6 @@ const removeFromArray = function (array, ...args)
     // Return a filtered array, excluding any items in `itemsToRemove`
     return arr.filter(item => !itemsToRemove.includes(item));
 }
-removeFromArray([1, 2, 3, 4], 3);
-
+removeFromArray([1, 2, 3, 4], 3)
 // Do not edit below this line
 module.exports = removeFromArray;
